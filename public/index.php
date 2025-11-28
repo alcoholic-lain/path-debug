@@ -1,5 +1,10 @@
 <?php
 const C_FISH = '/../controller/FISH/fish.php';
+const FISH = "/../view/F/assets/fish.png";
+
+
+
+
 require_once __DIR__ . C_FISH;
 $controllerName = $_GET['c'] ?? 'fish';
 $action         = $_GET['a'] ?? 'index';
