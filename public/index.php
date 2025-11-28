@@ -1,7 +1,7 @@
 <?php
 const C_FISH = '/../controller/FISH/fish.php';
 require_once __DIR__ . C_FISH;
-$controllerName = $_GET['c'] ?? 'log';
+$controllerName = $_GET['c'] ?? 'fish';
 $action         = $_GET['a'] ?? 'index';
 
 switch ($controllerName) {
