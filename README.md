@@ -1,3 +1,3 @@
-****yay fish now showns up :D****
+****yay fish now shows up :D****
 
 ![img.png](final-result.png)
